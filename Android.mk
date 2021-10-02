@@ -21,11 +21,9 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := acdb_get.c
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := acdb_get
+LOCAL_MODULE := acdbextract
 LOCAL_MODULE_CLASS := EXECUTABLES
-
 LOCAL_CFLAGS := -Wall -Werror
-
 LOCAL_32_BIT_ONLY := true
 
 include $(BUILD_EXECUTABLE)

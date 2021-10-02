@@ -4,7 +4,7 @@
 
 #include "acdb_data.h"
 
-#define LIB_AUDIO_HAL "audio.primary.sm6150.so"
+#define LIB_AUDIO_HAL "audio.primary.sdm660.so"
 
 typedef int (*platform_get_snd_device_acdb_id_t)(int);
 typedef int (*platform_get_snd_device_index_t)(char *);
